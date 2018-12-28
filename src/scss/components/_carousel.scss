@@ -1,0 +1,9 @@
+.carousel-1 {
+    border-radius: 6px;
+    @include mq(m) { margin: auto 5em; }
+    img {
+        max-height: 30em;
+        display: flex;
+        margin: 0 auto;
+    }
+}

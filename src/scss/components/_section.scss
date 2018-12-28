@@ -1,0 +1,15 @@
+main {
+    section {
+        padding: 1em;
+        font-family: var(--font-main), var(--font-alt);
+        .title-main {
+            text-align: center;
+            background-color: var(--color-titles);
+            color: var(--text-color);
+            padding: .5em;
+            margin-bottom: 1em;
+            border-radius: 6px;
+        }
+        
+    }
+}

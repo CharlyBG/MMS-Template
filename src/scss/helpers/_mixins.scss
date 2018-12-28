@@ -1,0 +1,38 @@
+@mixin mq($bp) {
+    @if map-has-key($breakpoints, $bp) {
+        @media screen and (min-width: map-get($breakpoints, $bp)) {
+            @content;
+        }
+    }
+
+    @else {
+        @media screen and (min-width: $bp) {
+            @content;
+        }
+    }
+}
+
+@mixin mq-mf($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+          @media screen and ( min-width: map-get($breakpoints, $breakpoint) ) {
+              @content;
+          }
+      } @else {
+          @media screen and ( min-width: $breakpoint ) {
+              @content;
+          }
+      }
+  }
+  
+  @mixin mq-df($breakpoint) {
+      @if map-has-key($breakpoints, $breakpoint) {
+            @media screen and ( max-width: map-get($breakpoints, $breakpoint) ) {
+                @content;
+            }
+        } @else {
+            @media screen and ( max-width: $breakpoint ) {
+                @content;
+            }
+        }
+    }
+    

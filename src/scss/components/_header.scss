@@ -1,0 +1,19 @@
+header {
+    width: 100%;
+    background: #b4b4b4 url('../img/background-header.jpg') center center no-repeat scroll;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    h1 {
+        text-shadow: 5px 5px 10px #000000;
+    }
+    img {
+        display: flex;
+        max-height: 9em;
+        margin: 1em auto;
+        transition: all ease .3s;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}

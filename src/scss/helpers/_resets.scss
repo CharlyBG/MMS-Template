@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+    font-family: var(--font-main), var(---font-alt);
+    font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    --color: var(--color-main);
+    --color-titles: var(--color-title);
+    --text-color: var(--color-text);
+    --bg: var(--bg-color);
+    &.dark-mode {
+        --color: var(--color-alt);
+        --text-color: var(--color-text-alt);
+        --bg: var(--bg-color-alt);
+        color: var(--text-color);
+    }
+    overflow-x: hidden;
+    background-color: var(--bg);
+}

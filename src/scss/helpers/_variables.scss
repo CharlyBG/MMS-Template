@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700|Raleway:400,700|Roboto:400,700');
+:root {
+    --font-main: 'Raleway';
+    --font-alt: sans-serif;
+
+    --color-main: #009688;
+    --color-alt: #272727;
+    --color-title: #004d40;
+    --color-text: #000;
+    --color-text-alt: #fff;
+
+    --bg-color: #f2f2f3;
+    --bg-color-alt: #1a1a1d;
+}
+
+$breakpoints: (
+    xs: 30em, /* 480 / 16  */
+    s: 37.5em, /* 600 / 16  */
+    m: 45em, /* 720 / 16 */
+    l: 64em, /* 1024 / 16 */
+    xl: 75em /* 1200/ 16 */
+);
