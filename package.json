@@ -1,12 +1,12 @@
 {
   "name": "mms-template",
-  "version": "1.1.0",
+  "version": "1.5.0",
   "description": "Simple Website Template",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "CharlyG <rudybrau@gmail.com>",
+  "author": "CharlyG <charlyzest@gmail.com>",
   "license": "SEE LICENCE IN LICENCE.txt",
   "devDependencies": {
     "@babel/core": "^7.2.2",
