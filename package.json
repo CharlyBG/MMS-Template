@@ -9,21 +9,21 @@
   "author": "CharlyG <charlyzest@gmail.com>",
   "license": "SEE LICENCE IN LICENCE.txt",
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.2.3",
-    "@fortawesome/fontawesome-free": "^5.6.3",
-    "browser-sync": "^2.26.3",
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^6.0.0",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@fortawesome/fontawesome-free": "^5.8.1",
+    "browser-sync": "^2.26.5",
+    "gulp": "^4.0.1",
+    "gulp-autoprefixer": "^6.1.0",
     "gulp-babel": "^8.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-htmlmin": "^5.0.1",
     "gulp-imagemin": "^5.0.3",
     "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.4",
-    "gulp-typescript": "^5.0.0"
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-typescript": "^5.0.1"
   },
   "dependencies": {
-    "bootstrap": "^4.2.1"
+    "bootstrap": "^4.3.1"
   }
 }
